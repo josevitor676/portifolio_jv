@@ -4,10 +4,10 @@ export const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
     flex-direction: column;
-    
+    border-bottom: 2px solid #333;
     div {
         margin:15px;
         h1 {
