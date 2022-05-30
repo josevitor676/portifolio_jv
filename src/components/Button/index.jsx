@@ -1,7 +1,7 @@
-import { Btn } from "./style"
+
 
 const Button = ({children}) => {
-    return <Btn>{children}</Btn>
+    return <button>{children}</button>
 }
 
 export default Button

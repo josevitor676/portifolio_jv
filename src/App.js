@@ -4,6 +4,7 @@ import GlobalStyle from "./style/global"
 import Main from "./components/main";
 import About from "./components/About";
 import Tecnology from "./components/Tecnology";
+import { CarroselBox } from "./components/Carrousel";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Main/>
       <About/>
       <Tecnology/>
+      <CarroselBox/>
     </Container>
   );
 }
