@@ -60,6 +60,7 @@ export const CarroselBox = () =>{
     return (
         <>
             <Swiper 
+            className="classProjects"
             slidesPerView={1}
             modules={[Navigation, Pagination, A11y]}
             navigation={true}
