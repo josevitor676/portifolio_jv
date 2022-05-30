@@ -5,6 +5,7 @@ import Main from "./components/main";
 import About from "./components/About";
 import Tecnology from "./components/Tecnology";
 import { CarroselBox } from "./components/Carrousel";
+import { Footer } from "./components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Tecnology/>
       <CarroselBox/>
+      <Footer/>
     </Container>
   );
 }

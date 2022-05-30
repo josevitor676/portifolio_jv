@@ -45,4 +45,22 @@ export const ContainerAbout = styled.div`
             }
         }
     }
+    div {
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                svg {
+                    font-size: 18px;
+                    color: #00A04A;
+                }
+                a {
+                    margin-left: 10px;
+                    font-size: 15px;
+                    cursor: pointer;
+                    padding-bottom: 2px;
+                }
+            }
+        }
+    }
 `
