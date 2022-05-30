@@ -3,6 +3,7 @@ import { Container } from "./style";
 import GlobalStyle from "./style/global"
 import Main from "./components/main";
 import About from "./components/About";
+import Tecnology from "./components/Tecnology";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Main/>
       <About/>
+      <Tecnology/>
     </Container>
   );
 }
