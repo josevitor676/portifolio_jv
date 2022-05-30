@@ -3,7 +3,7 @@ import {SiJavascript, SiReact, SiGithub, SiHtml5, SiCss3, SiTypescript, SiRedux}
 
 const Tecnology = () => {
     return (
-        <ContainerTecnology>
+        <ContainerTecnology className="classTecnology">
             <h4>Tecnologias </h4>
             <div>
                 <p><SiReact/>React</p>

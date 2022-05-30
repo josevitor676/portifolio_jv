@@ -50,4 +50,143 @@ export const ContainerCarrrosel = styled.div`
             text-decoration-color: #00A04A;
         }
     }
+    @media (min-width:426px) and (max-width:768px) {
+        width: 310px;
+        display: flex;
+        img {
+            width: 280px;
+        }
+        h1 {
+            font-size: 15px;
+            text-align: center;
+            span {
+                font-size: 17px;
+            }
+        }
+        p {
+            font-size: 15px;
+            text-align: center;
+            span {
+                font-size: 17px;
+            }
+        }
+        ul {
+        list-style: none;
+        color: #00A04A;
+        font-size: 17px;
+        li {
+            font-size: 15px;
+            margin: 5px;
+            color: white;
+        }
+        }
+    span {
+        margin-top: 7px;
+        font-size: 17px;
+        a {
+            font-size: 17px;
+            margin: 5px;
+            cursor: pointer;
+            color: #00A04A;
+            text-decoration: underline;
+            text-decoration-color: #00A04A;
+        }
+    }
+    }
+    @media (min-width:769px) and (max-width:1024px) {
+        width: 500px;
+        display: flex;
+        img {
+            width: 400px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            span {
+                font-size: 22px;
+            }
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            span {
+                font-size: 22px;
+                text-align: left;
+            }
+        }
+        ul {
+        list-style: none;
+        color: #00A04A;
+        font-size: 22px;
+        li {
+            font-size: 20px;
+            margin: 5px;
+            color: white;
+        }
+        }
+    span {
+        margin-top: 12px;
+        font-size: 20px;
+        a {
+            font-size: 22px;
+            margin: 5px;
+            cursor: pointer;
+            color: #00A04A;
+            text-decoration: underline;
+            text-decoration-color: #00A04A;
+        }
+        }
+    }
+
+
+    @media (min-width:1025px) and (max-width:1440px) {
+        width: 700px;
+        display: flex;
+        img {
+            width: 550px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 23px;
+            padding: 10px;
+            text-align: center;
+            span {
+                font-size: 26px;
+            }
+        }
+        p {
+            font-size: 22px;
+            text-align: center;
+            padding: 10px;
+            span {
+                font-size: 26px;
+                text-align: left;
+            }
+        }
+        ul {
+        list-style: none;
+        color: #00A04A;
+        font-size: 26px;
+        padding: 10px;
+        li {
+            font-size: 23px;
+            margin: 5px;
+            color: white;
+        }
+        }
+    span {
+        margin-top: 12px;
+        font-size: 24px;
+        padding: 5px;
+        a {
+            font-size: 26px;
+            margin: 5px;
+            cursor: pointer;
+            color: #00A04A;
+            text-decoration: underline;
+            text-decoration-color: #00A04A;
+        }
+        }
+    }
 `

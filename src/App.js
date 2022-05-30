@@ -6,6 +6,7 @@ import About from "./components/About";
 import Tecnology from "./components/Tecnology";
 import { CarroselBox } from "./components/Carrousel";
 import { Footer } from "./components/Footer";
+import { Info } from "./components/Info";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Main/>
       <About/>
+      <Info/>
       <Tecnology/>
       <CarroselBox/>
       <Footer/>

@@ -10,7 +10,7 @@ const Header = () => {
                 <a href="#">Home</a>
                 <a href="#">Sobre</a>
                 <a href="#">Projetos</a>
-                <a href="#">Contatos</a>
+                <a href="https://linktr.ee/jose_vitorz" target="_blank">Contatos</a>
             </div>
         </HeaderContainer>
     )
