@@ -149,7 +149,7 @@ export const ContainerCarrrosel = styled.div`
         }
         h1 {
             font-size: 23px;
-            padding: 10px;
+            padding: 5px;
             text-align: center;
             span {
                 font-size: 26px;
@@ -180,7 +180,56 @@ export const ContainerCarrrosel = styled.div`
         font-size: 24px;
         padding: 5px;
         a {
-            font-size: 26px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+            color: #00A04A;
+            text-decoration: underline;
+            text-decoration-color: #00A04A;
+        }
+        }
+    }
+    @media (min-width:1441px) and (max-width:1700px) {
+        width: 600px;
+        display: flex;
+        img {
+            width: 300px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 20px;
+            padding: 5px;
+            text-align: center;
+            span {
+                font-size: 22px;
+            }
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+            span {
+                font-size: 22px;
+                text-align: left;
+            }
+        }
+        ul {
+        list-style: none;
+        color: #00A04A;
+        font-size: 22px;
+        padding: 5px;
+        li {
+            font-size: 20px;
+            margin: 5px;
+            color: white;
+        }
+        }
+    span {
+        margin-top: 12px;
+        font-size: 20px;
+        padding: 5px;
+        a {
+            font-size: 18px;
             margin: 5px;
             cursor: pointer;
             color: #00A04A;

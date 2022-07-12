@@ -94,4 +94,26 @@ export const HeaderContainer = styled.div`
             }
         } 
     }
+    @media (min-width:1441px) and (max-width:1700px) {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        div {
+            margin:10px;
+            h1 {
+                font-size: 37px;
+                margin-left: 20px;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            margin: 7px;
+            a {
+                font-size: 20px;
+                margin: 10px;
+            }
+        } 
+    }
 `

@@ -7,6 +7,7 @@ import Tecnology from "./components/Tecnology";
 import { CarroselBox } from "./components/Carrousel";
 import { Footer } from "./components/Footer";
 import { Info } from "./components/Info";
+import { Email } from "./components/Email";
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <About/>
       <Info/>
       <Tecnology/>
-      <CarroselBox/>
+      <CarroselBox />
+      <Email/>
       <Footer/>
     </Container>
   );

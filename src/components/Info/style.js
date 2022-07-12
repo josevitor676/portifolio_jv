@@ -6,6 +6,8 @@ export const InfoContent = styled.div`
     justify-content: center;
     color: white;
     flex-direction: column;
+    border-bottom: 2px solid #333;
+    height: 100vh;
     ul {
         padding: 10px;
         list-style: none;
@@ -135,6 +137,45 @@ export const InfoContent = styled.div`
                     }
                     a {
                         font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width:1441px) and (max-width:1700px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 400px;
+        ul {
+            flex: 1;
+            text-align: center;
+            li{
+                font-size: 20px;
+                span {
+                    font-size: 21px;
+                }
+            }
+        }
+        div {
+            text-align: center;
+            flex: 1;
+            font-size: 24px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                li {
+                    text-align: center;
+                    svg {
+                        font-size: 30px;
+                        margin-right: 15px;
+                    }
+                    a {
+                        font-size: 22px;
                     }
                 }
             }

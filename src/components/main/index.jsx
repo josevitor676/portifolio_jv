@@ -1,9 +1,9 @@
-import { Button, Link } from "@chakra-ui/react"
+import { Link } from "@chakra-ui/react"
 import { MainContainer } from "./style"
 
 const Main = () => {
     return(
-        <MainContainer className="classMain">
+        <MainContainer id="home">
             <div>
                 <h2>Sou um Deselvolvedor Front-End formado na Kenzie Academy Brasil</h2>
                 <Link 
@@ -13,7 +13,7 @@ const Main = () => {
                 textAlign="center" 
                 isExternal={true} 
                 fontSize={["14px", "16px", "19px", "22px"]}
-                href="https://docs.google.com/document/d/1QYGFScQBumyUgXn_o7Agcn_KBX4r7wd8Fnao9xypJZU/edit#"
+                href="https://www.canva.com/design/DAFE-8MDwvY/yfz1BvoVQJBSpvAdp3P_Qg/view?utm_content=DAFE-8MDwvY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 >
                     Ver Curriculo
                 </Link>

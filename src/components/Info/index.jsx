@@ -2,7 +2,7 @@ import {FaLinkedin, FaTwitter,FaInstagram} from "react-icons/fa"
 import { InfoContent } from "./style"
 export const Info = () => {
     return (
-        <InfoContent>
+        <InfoContent id="sobre">
             <ul>
                 <li><span>Nome</span>: Jose Vitor da Silva Santos</li>
                 <li><span>Idade</span>: 20 Anos</li>

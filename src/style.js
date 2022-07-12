@@ -6,4 +6,5 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
+    
 `
