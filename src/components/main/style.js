@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const MainContainer = styled.main`
     color: white;
+    border-bottom: 2px solid #333;
     div {
         padding: 10px;
         display: flex;
@@ -41,7 +42,7 @@ export const MainContainer = styled.main`
     @media (min-width:769px) and (max-width:1024px) {
         display: flex;
         align-items: center;
-        height: 370px;
+        height: 380px;
         div {
             flex: 1;
             h2 {
@@ -60,6 +61,24 @@ export const MainContainer = styled.main`
         display: flex;
         align-items: center;
         height: 480px;
+        div {
+            flex: 1;
+            h2 {
+                font-size: 25px;
+                line-height: 33px;
+                margin-bottom: 20px;
+            }
+        }
+        div {
+            img {
+                width: 280px;
+            }
+        }
+    }
+    @media (min-width:1441px) and (max-width:1700px) {
+        display: flex;
+        align-items: center;
+        height: 530px;
         div {
             flex: 1;
             h2 {

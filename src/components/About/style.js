@@ -6,7 +6,8 @@ export const ContainerAbout = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    height: 80vh;
+    border-bottom: 2px solid #333;
     img {
         width: 150px;
         border:2px solid white;
@@ -92,6 +93,7 @@ export const ContainerAbout = styled.div`
         
         div {
             flex: 1;
+            margin-right: 60px;
             h4 {
                 font-size: 30px;
             }
@@ -101,4 +103,29 @@ export const ContainerAbout = styled.div`
             }
         }
     }
+    @media (min-width:1441px) and (max-width:1700px) {
+        display: flex;
+        flex-direction: row;
+        img {
+            margin: 0 auto;
+            width: 220px;
+            :hover {
+            width: 225px;
+            }
+        }
+        
+        div {
+            flex: 1;
+            margin-right: 60px;
+            h4 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                text-align: center;
+                line-height: 35px;
+            }
+        }
+    }
+    
 `

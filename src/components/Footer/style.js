@@ -44,4 +44,15 @@ export const FooterContent = styled.footer `
             align-items: center;
         }
     }
+    @media (min-width:1441px) and (max-width:1700px) {
+        padding: 15px;
+        svg {
+            font-size: 22px;
+        }
+        p {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+    }
 `
